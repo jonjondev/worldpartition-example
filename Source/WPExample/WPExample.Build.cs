@@ -15,7 +15,8 @@ public class WPExample : ModuleRules
 			"InputCore",
 			"EnhancedInput",
 			"UMG",
-			"Slate"
+			"Slate",
+			"SmartObjectsModule"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });

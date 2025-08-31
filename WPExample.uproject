@@ -7,11 +7,12 @@
 		{
 			"Name": "WPExample",
 			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine",
-				"UMG"
-			]
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "WPExampleEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [
@@ -21,6 +22,10 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "SmartObjects",
+			"Enabled": true
 		}
 	]
 }
